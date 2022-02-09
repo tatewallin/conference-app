@@ -54,7 +54,7 @@
         "test:unit:debug": "lwc-services test:unit --debug",
         "test:unit:watch": "lwc-services test:unit --watch",
         "watch": "run-p watch:client watch:server",
-        "watch:client": "lwc-services watch",
+        "watch:client": "lwc-services watch -p 3005",
         "watch:server": "nodemon"
     }
 }

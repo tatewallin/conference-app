@@ -9,3 +9,7 @@ Start simple by running `yarn watch` (or `npm run watch`, if you set up the proj
 The source files are located in the [`src`](./src) folder. All web components are within the [`src/client/modules`](./src/modules) folder. The folder hierarchy also represents the naming structure of the web components. The entry file for the custom Express configuration can be found in the ['src/server'](./src/server) folder.
 
 Find more information on the main repo on [GitHub](https://github.com/muenzpraeger/create-lwc-app).
+
+## Troubleshooting
+Issue - Error in initial `npm run watch`
+Fix - Update package.json.  add -p xxxx to specify a diff port # as 3001 is already in use
