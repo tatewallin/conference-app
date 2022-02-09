@@ -1,4 +1,5 @@
-const URL = 'https://conference-lwc-app.herokuapp.com/api/sessions';
+//const URL = 'https://conference-lwc-app.herokuapp.com/api/sessions';
+const URL = '/api/sessions';
 let sessions = [];
 
 export const getSessions = () => fetch(URL)
