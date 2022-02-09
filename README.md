@@ -10,6 +10,9 @@ The source files are located in the [`src`](./src) folder. All web components ar
 
 Find more information on the main repo on [GitHub](https://github.com/muenzpraeger/create-lwc-app).
 
-## Troubleshooting
+## Troubleshooting Notes
 Issue - Error in initial `npm run watch`
 Fix - Update package.json.  add -p xxxx to specify a diff port # as 3001 is already in use
+
+Issue - when attempting to push changes to my github , `git ssl certificate problem: unable to get local issuer cert`
+Fix - For this repo only, ran the following command `git --config --local http.sslVerify false`
