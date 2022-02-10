@@ -15,7 +15,7 @@ Issue - Error in initial `npm run watch`
 Fix - Update package.json.  add -p xxxx to specify a diff port # as 3001 is already in use
 
 Issue - when attempting to push changes to my github , `git ssl certificate problem: unable to get local issuer cert`
-Fix - For this repo only, ran the following command `git --config --local http.sslVerify false`
+Fix - For this repo only, ran the following command `git config --local http.sslVerify false`
 
 Issue - Connection refused on start up after attempting to integrate to my personal org playground
 Fix - Disconnect from F5
